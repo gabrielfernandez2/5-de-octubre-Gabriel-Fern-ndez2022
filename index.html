@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--PROGRAMACIÓN GABRIEL FRERNÁNDEZ-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--PROGRAMACIÓN GABRIEL FRERNÁNDEZ-->
+    <nav>
+        <!--contenedor logo-->
+        <div class="logo">
+            <a href="#">Brandix-evacreativo</a>
+        </div>
+        <!--fin contenedor logo-->
+        <!--inicio de menu web-->
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">QUIEN SOY</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--fin de menu web-->
+    <section class="home"></section>
+    <div class="text">
+        <p><h2>SOBRE MI</h2></p>
+        <P>Soy Gabriel Fernández Careaga, nací en el país de Bolivia en la ciudad de Sucre, Chuquisaca. Entre a la universidad el año 2021 ya que no me decidí mucho por que carrera elegir, pero al finnal opté por diseño gráfico. Ahora estoy de intercambio en el país de Colombia en la ciudad de Bucaramanga ya que me eligieron por tener un buen promedio y pueda representar a mi país en el exterior. Actualmente tengo 20 años y estoy cursando el 4to semestre de universidad en a UDI que es la universidad de investigación y desarrollo. </P>
+    </div>
+    <!--área de java-->
+    <script>
+
+
+        let nav = document.querySelector("nav");
+        window.onscroll = function() {
+        if(document.documentElement.scrollTop > 20){
+          nav.classList.add("sticky");
+        }else {
+            nav.classList.remove("sticky");
+        }
+      }
+
+    </script>
+</body>
+</html>
